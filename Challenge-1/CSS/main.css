@@ -25,7 +25,9 @@ color:#393D51;
 font-family: 'Exo 2';
 font-weight: 300;
 font-size: 15px;
-line-height: 53px;
+line-height: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
 color:#414246;
 }
 
@@ -78,4 +80,25 @@ header .container ul li a:hover{
     font-weight: 700;
     color:#F1554C
     
+}
+.hero{
+    height: 620px;
+    background-color: #F4F5FC;
+    display: flex;
+    align-items: center;
+}
+.hero .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.hero .container .text h1, p{
+    max-width: 376px;
+}
+.hero .container .text span{
+    font-family: 'Exo 2';
+   font-weight: 700; 
+   color: #F1554C;
+   
 }
