@@ -4,4 +4,50 @@
     border: none;
     list-style: none;
     text-decoration: none;
+    font-family: 'Inter';
+}
+
+.container{
+    max-width: 1216px;
+    width: 100%;
+    margin:0 auto;
+}
+
+h1{
+font-family: 'Exo 2';
+font-weight: 700;
+font-size: 43px;
+line-height: 52px;
+color:#393D51;
+}
+
+.titulo{
+font-family: 'Exo 2';
+font-weight: 300;
+font-size: 15px;
+line-height: 53px;
+color:#414246;
+}
+
+p{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color:#414246;
+}
+
+.btn-primary{
+   width: 152px; 
+   height: 45px;
+   border-radius: 7px;
+   background-color: #F1554C;
+   color: #fff;
+   font-size: 16px;
+   font-family: 'Inter';
+   font-weight: 400;
+
+}
+.btn-primary:hover{
+    background-color: #D0423A;
 }
