@@ -51,12 +51,15 @@ color:#414246;
 .btn-primary:hover{
     background-color: #D0423A;
 }
+header{
+    background-color: #F4F5FC;
+}
 
 header .container{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 header .container nav{
     display: flex;
@@ -71,6 +74,8 @@ header .container ul{
 header .container ul li{
    margin-left: 26px; 
 }
-header .container ul li a{
-    color:#393D51 ;
+header .container ul li a:hover{
+    font-weight: 700;
+    color:#F1554C
+    
 }
