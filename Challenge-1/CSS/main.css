@@ -104,5 +104,22 @@ header .container ul li a:hover{
 }
 .hero .container .text p{
 margin: 15px 0 17px 0;
+}
 
+.hero .container .text .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hero .container .text .btns button{
+    margin-right: 27px;
+}
+
+.hero .container .text .btns .play a{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero .container .text .btns .play a p{
+    margin-left: 10px;
 }
